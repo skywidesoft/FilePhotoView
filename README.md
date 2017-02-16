@@ -12,10 +12,10 @@ Use this library is very simple, you just need to invoke the class "com.skywides
 
 ### Sample
 The following is a sample Activity class that do the following:
-1. Download a file from Internet and turn into a Bitmap image
-2. Generate a uuid for the file name
-3. Save the file to application cache
-4. Create a new Intent for the FilePhotoViewActivity, and pass the file name
+* Download a file from Internet and turn into a Bitmap image
+* Generate a uuid for the file name
+* Save the file to application cache
+* Create a new Intent for the FilePhotoViewActivity, and pass the file name
 
 ### Sample code snippet (from sample folder)
 ```

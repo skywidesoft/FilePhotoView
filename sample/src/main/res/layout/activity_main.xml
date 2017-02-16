@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.skywidesoft.filephotoviewsample.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="File Photo View Sample" />
+
+    <TextView
+        android:text="Enter image url below:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/viewBtn"
+        android:layout_marginTop="56dp"
+        android:id="@+id/imageUrlLabel" />
+
+    <Button
+        android:text="Download Image File and View"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/viewBtn"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textUri"
+        android:ems="10"
+        android:layout_marginTop="13dp"
+        android:id="@+id/imageUrl"
+        android:layout_below="@+id/imageUrlLabel"
+        android:layout_alignStart="@+id/imageUrlLabel"
+        android:text="https://controller1.skywidesoft.com/images/sample1.jpg" />
+</RelativeLayout>

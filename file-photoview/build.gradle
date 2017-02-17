@@ -13,7 +13,7 @@ ext {
     siteUrl = 'https://github.com/skywidesoft/FilePhotoView'
     gitUrl = 'https://github.com/skywidesoft/FilePhotoView.git'
 
-    libraryVersion = '0.1.1'
+    libraryVersion = '0.1.2'
 
     developerId = 'clarenceh'
     developerName = 'Clarence Ho'

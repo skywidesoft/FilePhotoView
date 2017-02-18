@@ -35,7 +35,7 @@ The following is a sample Activity class that do the following:
 * Download a file from Internet and turn into a Bitmap image
 * Generate a uuid for the file name
 * Save the file to application cache
-* Create a new Intent for the FilePhotoViewActivity, and pass the file name
+* Create a new Intent for the FilePhotoViewActivity, and pass the file name (with the argument name "imageFilePath")
 
 ### Sample code snippet (from sample folder)
 ```

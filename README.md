@@ -3,9 +3,29 @@ File Photo Viewer
 
 A simple library for viewing an image file on Android from local storage.
 
+[![Release](https://jitpack.io/v/skywidesoft/FilePhotoView.svg)]
+(https://jitpack.io/#skywidesoft/FilePhotoView)
+
 ### Libraries used
 * [Glide](https://github.com/bumptech/glide): for image photo loading
 * [PhotoView](https://github.com/chrisbanes/PhotoView): for image viewing with zoom functions
+
+### Gradle dependency
+Add it to your build.gradle with:
+```gradle
+allprojects {
+    repositories {
+        maven { url "https://jitpack.io" }
+    }
+}
+```
+and:
+
+```gradle
+dependencies {
+    compile 'com.github.skywidesoft:FilePhotoView:{latest version}'
+}
+```
 
 ### Usage
 Use this library is very simple, you just need to invoke the class "com.skywidesoft.filephotoview.FilePhotoViewActivity" and pass in the absolute path of the file to view.

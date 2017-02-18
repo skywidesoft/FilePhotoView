@@ -1,11 +1,9 @@
 File Photo Viewer - Development Notes
 -------------------------------------
 
-To update a new version to Bintray Jcenter and Maven, perform the following steps:
-* In the file 'file-photoview/build.gradle', update the version property (libraryVersion)
-* In the project root folder, run the following commands
-```
-gradlew install
-gradlew bintrayUpload
-```
-* Go to bintray.com and verify the addition of files of the new version was uploaded
+To update a new version to jitpack.io, perform the following steps:
+* Commit all changes to master branch
+* Add a new git tag (e.g. 0.1.4)
+* Push to github
+
+> The new version will then be available

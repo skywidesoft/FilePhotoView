@@ -1,5 +1,5 @@
 File Photo Viewer
------------------
+------------------
 
 A simple library for viewing an image file on Android from local storage.
 
